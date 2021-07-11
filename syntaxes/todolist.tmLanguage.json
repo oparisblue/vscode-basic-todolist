@@ -1,0 +1,18 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "To-Do List",
+	"scopeName": "source.todolist",
+	"patterns": [
+		{
+			"match": "^\\s*(✔)\\s*(.*)",
+			"captures": {
+				"1": {
+					"name": "todolistcheck"
+				},
+				"2": {
+					"name": "todolistdone"
+				}
+			}
+		}
+	]
+}

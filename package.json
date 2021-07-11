@@ -1,0 +1,30 @@
+{
+    "name": "basic-todolist",
+    "displayName": "Basic To-Do Lists",
+    "description": "Support for .todolist files",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "todolist",
+            "aliases": ["To-Do List", "todolist"],
+            "extensions": [".todolist"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "todolist",
+            "scopeName": "source.todolist",
+            "path": "./syntaxes/todolist.tmLanguage.json"
+        }],
+        "themes": [ {
+            "label": "todolist",
+            "uiTheme": "vs-dark",
+            "path": "./themes/todolist-color-theme.json"
+        }]
+    }
+}

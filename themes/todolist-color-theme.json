@@ -1,0 +1,20 @@
+{
+	"name": "todolist",
+	"type": "dark",
+	"tokenColors": [
+		{
+			"scope": "todolistcheck",
+			"settings": {
+				"foreground": "#8BC34A",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "todolistdone",
+			"settings": {
+				"foreground": "#8BC34A44",
+				"fontStyle": "italic"
+			}
+		}
+	]
+}
